@@ -1,0 +1,18 @@
+
+:lang(uk) #epg a:after {content: "Кафедра електропостачання промпідприємств і міст"}
+:lang(ru) #epg a:after {content: "Кафедра электроснабжения промпредприятий и городов"}
+:lang(en) #epg a:after {content: "Department of Power Supply of Industrial Companies and Cities"}
+:lang(de) #epg a:after {content: ""}
+:lang(fr) #epg a:after {content: ""}
+
+:lang(uk) #etf a:after {content: "Факультет інтеллектуальної электроенергетики і робототехніки"}
+:lang(ru) #etf a:after {content: "Факультет интеллектуальной электроэнергетики и робототехники"}
+:lang(en) #etf a:after {content: "Faculty of Intelligent Power Engineering and Robotics"}
+:lang(de) #etf a:after {content: "Elektroingenieurwesen Fakultäten"}
+:lang(fr) #etf a:after {content: ""}
+
+:lang(uk) #donntu a:after {content: "ДОНЕЦЬКИЙ НАЦІОНАЛЬНИЙ ТЕХНІЧНИЙ УНІВЕРСИТЕТ"}
+:lang(ru) #donntu a:after {content: "ДОНЕЦКИЙ НАЦИОНАЛЬНЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ"}
+:lang(en) #donntu a:after {content: "DONETSK NATIONAL TECHNICAL UNIVERSITY"}
+:lang(de) #donntu a:after {content: "NATIONALE TECHNISCHE UNIVERSITÄT DONEZK"}
+:lang(fr) #donntu a:after {content: "UNIVERSITÉ TECHNIQUE NATIONALE DE DONETSK"}

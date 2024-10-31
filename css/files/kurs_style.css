@@ -1,0 +1,49 @@
+
+/*---------------- Курси --------------------*/
+
+div.kurs {
+	margin-left: 20pt;
+	margin-bottom: 20pt;
+	
+}
+
+div.kurs p{
+    margin-top: 0.7em; /* Отступ сверху */
+    margin-bottom: 0.7em; /* Отступ снизу */
+}
+.ktype {
+	font-style: italic;
+}
+
+h4.kurs {
+	font-family : Linux Biolinum, Arial, Helvetica, sans-serif;
+	margin-left: 10pt;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 0.5em; /* Отступ снизу */
+}
+
+:lang(uk) .ktype:before {
+	content: "Вид оцінювання: ";
+}
+
+:lang(ru) .ktype:before {
+	content: "Вид оценивания: ";
+}
+
+
+ul.kcontent { /* Содержание курсов */
+	margin-left: 5pt;
+	list-style-type: none;
+}
+
+li.kct1 { /* Элемент содержания курсов (уровень 1) */
+	font-size: 100%;
+	margin-left: 0pt;
+	padding: 2pt; 
+}
+
+li.kct2 { /* Элемент содержания курсов (уровень 2) */
+	font-size: 90%;
+	margin-left: 20pt;
+	padding: 2pt; 
+}

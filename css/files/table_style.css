@@ -1,0 +1,80 @@
+
+/* ------------- ТАБЛИЦЫ ----------------------------------------------------------------------- */
+
+table#staff{
+	margin: auto;
+	/*width: 90%;*/
+}
+
+table#staff td, table#staff a{
+	font-size : 95%;
+}
+
+table#staff tr {
+	vertical-align: top;
+}
+
+table#staff td:nth-child(1) { /* Первый столбец */ 
+	/*width: 50%;*/ 
+	text-align: left;
+	padding-right: 7pt;
+	border-right: 1px solid grey;
+}
+
+table#staff td:nth-child(2) { /* Второй столбец */
+	/*width: 50%;*/
+	padding-left: 5pt;
+}
+
+table#patent { /* Сама таблица */
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 40pt;
+	margin-top: 10pt;
+	border-collapse:collapse;
+	padding: 0px;
+	text-align: center;
+}
+
+table#patent tr td { /* Ячейка в таблице */	
+	border: 1px solid grey; 
+	padding: 3pt;
+} 
+
+table#patent tr th { /* Ячейка заголовка в таблице */	
+	border: 1px solid grey; 
+	padding: 5pt;
+} 
+
+table#patent td:nth-child(3) { /* Третий столбец */
+	padding-left: 10pt;
+	text-align: left;
+}
+  
+table#patent td.cn { /* Все остальные столбцы */
+	text-align: center;
+}
+
+table#contacts {
+	text-align: left;
+}
+
+table#contacts tr.top {
+	padding-top: 5pt;
+}
+
+table#abit  { /* Сама таблица */
+	border-collapse:collapse;
+	text-align: center;
+	margin: auto;
+}
+
+table#abit tr td { /* Ячейка в таблице */	
+	border: 1px solid grey; 
+	padding: 3pt;
+} 
+
+table#abit tr th { /* Ячейка заголовка в таблице */	
+	border: 1px solid grey; 
+	padding: 5pt;
+} 
