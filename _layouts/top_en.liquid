@@ -42,8 +42,9 @@
 <div id="content">
     <div id="langbox">
         {%- if page.data.ru %}
-        <a href="{{ page.data.ru }}"><img src="images/ru2.png" alt="Русский язык"></a>
+        <a href="{{ page.data.ru }}"><img class="inactive" src="images/ru.png" alt="Русский язык"></a>
         {%- endif %}
+        <img src="images/en.png" alt="English">
     </div>
 
     {{ page.content }}

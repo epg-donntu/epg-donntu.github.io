@@ -5,7 +5,7 @@ data:
   ru: index.html
 ---
 
-## Main page
+## EPG chair
 
 <div class="mainimg">
 

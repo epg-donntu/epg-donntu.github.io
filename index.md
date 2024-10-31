@@ -5,7 +5,7 @@ data:
   en: index_en.html
 ---
 
-## Главная страница
+## Кафедра ЭПГ
 
 <div class="mainimg">
 

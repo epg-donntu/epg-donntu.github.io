@@ -16,3 +16,11 @@
 :lang(en) #donntu a:after {content: "DONETSK NATIONAL TECHNICAL UNIVERSITY"}
 :lang(de) #donntu a:after {content: "NATIONALE TECHNISCHE UNIVERSITÄT DONEZK"}
 :lang(fr) #donntu a:after {content: "UNIVERSITÉ TECHNIQUE NATIONALE DE DONETSK"}
+
+#langbox img.inactive {
+  opacity: 0.2;
+}
+  
+#langbox img.inactive:hover {
+  opacity: 1.0;
+}
