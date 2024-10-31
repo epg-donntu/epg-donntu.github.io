@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style-9c0dde89d758c28b.css" integrity="sha384&#x2D;&#x2B;lGN5xujDp4dNUVljpKoFl&#x2F;C14eTon4eE8JwmVIwQJM7eJ2MHafR6vaGtdJRRSC5"/>
+    <title>Web-приложение Молниезащита</title>
+
+<link rel="modulepreload" href="./lirod2-85f6088a72722c77.js" crossorigin=anonymous integrity="sha384-Y/Q+/y3/WplI0u2McJ8aK/yeCQxRXsIkUfVV3cE15OKL7ZVzu1v7IPSeOEP/OsbV">
+<link rel="preload" href="./lirod2-85f6088a72722c77_bg.wasm" crossorigin=anonymous integrity="sha384-whshPXa8VW+vYZmCFjhViUU2YtGQ4EZPJx2lQ1d5fRtYyFrnM2uLM/MXJh2KXcXJ" as="fetch" type="application/wasm"></head>
+<body>
+
+<script type="module" nonce="oLblOSxAW6xVVLhi7tw6nA==">
+import init, * as bindings from './lirod2-85f6088a72722c77.js';
+const wasm = await init('./lirod2-85f6088a72722c77_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+
+</html>

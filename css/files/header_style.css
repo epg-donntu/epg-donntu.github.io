@@ -1,0 +1,69 @@
+/* ------------- ШАПКА ----------------------------------------------------------------------- */
+
+#header { /* Блок шапки */
+	background-image: url(../../images/header.png);
+	background-repeat: no-repeat;
+	width: 1065px;
+	height: 160px;
+	margin: 0 0 0 -2px;
+	border: 2px solid black;
+	border-radius: 15px;
+	font-family : Linux Biolinum, Arial, Helvetica, sans-serif;
+}
+
+#epg {
+	text-align: center;
+	top: 30px;
+	left: 230px;
+	position: relative;
+	width: 385px;
+	height: 45px;
+	}
+
+#donntu {
+	background: url(../../images/donntu_logo.png) no-repeat;
+	background-size: auto 80%;
+	background-position: center left;
+	text-align: center;
+	position: relative;
+	top: -31px;
+	left: 847px;
+	height: 63px;
+	width: 120px;
+	font-size: 12px;
+	line-height: 14px;
+	padding-left: 85px;
+	padding-top: 2px;
+}
+
+#donntu a {
+	vertical-align: middle;
+}
+
+#etf {
+	background: url(../../images/etf_logo.png) no-repeat;
+	background-size: auto 100%;
+	background-position: center left;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+	top: -21px;
+	left: 855px;
+	height: 63px;
+	width: 110px;
+	font-size: 13px;
+	line-height: 14px;
+	padding-left: 80px;
+	padding-top: 2px;
+}
+
+#etf a {
+	vertical-align: middle;
+}
+
+#epg a {
+    font-family : Linux Biolinum, Times New Roman, serif;	
+	font-size: 26px;
+	font-weight: bold;
+	text-align: center;
+}

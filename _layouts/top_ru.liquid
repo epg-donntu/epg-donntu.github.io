@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Кафедра электроснабжения промпредприятий и городов - {{ page.title }}</title>
+    <meta name="description" content="Сайт кафедры электроснабжения промпредприятий и городов" />
+    <meta name="keywords" content="ФИЭР, ЭТФ, ЭПГ, ЭСЭ, Донецк, ДонНТУ" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/totopscroll.js"></script>
+    {%- if page.data.maplibre %}
+    <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.js"></script>
+    <link href="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.css" rel="stylesheet" />
+    {%- endif %}
+</head>
+<body lang="ru">
+<a href="#" id="toTop">↑ </a>
+
+<div class="container">
+
+<div id="header">
+    <div id="epg"><a href="http://etf.donntu.ru/epg/index.htm"></a></div>
+    <div id="donntu"><a href="http://donntu.ru"></a></div>
+    <div id="etf"><a href="http://fier.donntu.ru/index.php?lang=ru"></a></div>
+</div>
+
+<div id="menu">
+    <nav id="nav">
+        <a {% if page.title == "Главная страница" %}class="buttonsup"{% endif %} href="index.html">Главная</a>
+        <a {% if page.title == "Новости" %}class="buttonsup"{% endif %} href="news_ru.html">Новости</a>
+        <a {% if page.title == "Состав кафедры" %}class="buttonsup"{% endif %} href="staff_ru.html">Состав кафедры</a>
+        <a {% if page.title == "История кафедры" %}class="buttonsup"{% endif %} href="history_ru.html">История кафедры</a>
+        <a {% if page.title == "Научная работа" %}class="buttonsup"{% endif %} href="science_ru.html">Научная работа</a>
+        <a {% if page.title == "Учебная работа" %}class="buttonsup"{% endif %} href="study_ru.html">Учебная работа</a>
+        <a {% if page.title == "Абитуриенту" %}class="buttonsup"{% endif %} href="abityrienty_ru.html">Абитуриенту</a>
+        <a {% if page.title == "Контакты" %}class="buttonsup"{% endif %} href="contacts_ru.html">Контакты</a>
+    </nav>
+</div>
+
+<div id="content">
+    <div id="langbox">
+        {%- if page.data.en %}
+        <a href="{{ page.data.en }}"><img src="images/en2.png" alt="English"></a>
+        {%- endif %}
+    </div>
+
+    {{ page.content }}
+</div>
+
+<div id="footer">
+</div>
+
+</div>
+</body>
+</html>

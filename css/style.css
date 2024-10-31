@@ -1,0 +1,13 @@
+@import "files/colors.css";
+
+@import "files/container_style.css";
+@import "files/basic_style.css";
+@import "files/header_style.css";
+@import "files/menu_style.css";
+
+@import "files/kurs_style.css";
+@import "files/table_style.css";
+@import "files/bikes_style.css";
+@import "files/mobile_style.css";
+
+@import "files/l18n.css";

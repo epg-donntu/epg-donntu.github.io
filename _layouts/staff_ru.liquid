@@ -1,0 +1,65 @@
+{%- assign person = page.data.staff %}
+{%- assign pdata = site.data.staff[person] %}
+{%- assign fullname = pdata.ru.surname | append: " " | append: pdata.ru.name | append: " " | append: pdata.ru.thirdname %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Кафедра электроснабжения промпредприятий и городов - {{ fullname }}</title>
+    <meta name="description" content="Сайт кафедры электроснабжения промпредприятий и городов" />
+    <meta name="keywords" content="ФИЭР, ЭТФ, ЭПГ, ЭСЭ, Донецк, ДонНТУ" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <link rel="icon" href="../images/favicon.png" type="image/png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="../js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="../js/totopscroll.js"></script>
+</head>
+<body lang="ru">
+<a href="#" id="toTop">↑ </a>
+
+<div class="container">
+
+<div id="header">
+    <div id="epg"><a href="http://etf.donntu.ru/epg"></a></div>
+    <div id="donntu"><a href="http://donntu.ru"></a></div>
+    <div id="etf"><a href="http://fier.donntu.ru/index.php?lang=ru"></a></div>
+</div>
+
+<div id="menu">
+    <nav id="nav">
+        <a href="../index.html">Главная</a>
+        <a href="../news_ru.html">Новости</a>
+        <a class="buttonsup" href="../staff_ru.html">Состав кафедры</a>
+        <a href="../history_ru.html">История кафедры</a>
+        <a href="../science_ru.html">Научная работа</a>
+        <a href="../study_ru.html">Учебная работа</a>
+        <a href="../abityrienty_ru.html">Абитуриенту</a>
+        <a href="../contacts_ru.html">Контакты</a>
+    </nav>
+</div>
+
+<div id="content">
+    <div id="langbox">
+        {%- if pdata.en %}
+        <a href="{{ page.data.staff }}_en.html"><img src="../images/en2.png" alt="English"></a>
+        {%- endif %}
+    </div>
+
+	<h2>{{ fullname }}</h2>
+
+	<div id=photomag><img src="images/{{ person }}.jpg" alt="{{ fullname }}"></div>
+	<p id="post">{% if pdata.en.degree %}{{ pdata.ru.degree }}, {% endif %}{{ pdata.ru.post }}.</p>
+
+    {% include "contacts.liquid" %}
+
+    <hr class="hidden" >
+
+    {{ page.content }}
+</div>
+
+<div id="footer">
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{%- if pdata.email %}
+    {%- for email in pdata.email %}
+	<p><a href="mailto:{{ email }}">
+        <div class="contact"><img src="../images/contacts/envelope_32.png" /></div>
+        {{ email }}
+    </a></p>
+    {%- endfor %}
+    {%- endif %}
+
+    {%- if pdata.phone %}
+    {%- for phone in pdata.phone %}
+    <p><a href="tel:{{ phone | remove: "(" | remove: ")" | remove: "-" | remove: " " }}">
+        <div class="contact"><img src="../images/contacts/phone-call_32.png" /></div>
+        {{ phone }}
+    </a></p>
+    {%- endfor %}
+    {%- endif %}
+
+    {%- if pdata.telegram %}
+    <p><a href="https://t.me/{{ pdata.telegram }}">
+        <div class="contact"><img src="../images/contacts/telegram_32.png" /></div>
+        @{{ pdata.telegram }}
+    </a></p>
+    {%- elsif pdata.telegram_phone %}
+    <p><a href="https://t.me/{{ pdata.telegram_phone }}">
+        <div class="contact"><img src="../images/contacts/telegram_32.png" /></div>
+        {{ pdata.telegram_phone }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.vk %}
+    <p><a href="https://vk.com/{{ pdata.github }}">
+        <div class="contact"><img src="../images/contacts/vkontakte_32.png" /></div>
+        @{{ pdata.vk }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.github %}
+    <p><a href="https://github.com/{{ pdata.github }}">
+        <div class="contact"><img src="../images/contacts/github_32.png" /></div>
+        @{{ pdata.github }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.youtube %}
+    <p><a href="https://www.youtube.com/{{ pdata.youtube }}">
+        <div class="contact"><img src="../images/contacts/youtube_32.png" /></div>
+        @{{ pdata.youtube }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.rinc %}
+    <p><a href="https://www.elibrary.ru/author_profile.asp?authorid={{ pdata.rinc }}">
+        <div class="contact"><img src="../images/contacts/elibrary_32.png" /></div>
+        {{ pdata.rinc }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.orcid %}
+    <p><a href="https://orcid.org/{{ pdata.orcid }}">
+        <div class="contact"><img src="../images/contacts/orcid_32.png" /></div>
+        {{ pdata.orcid }}
+    </a></p>
+    {%- endif %}
+
+    {%- if pdata.scopus %}
+    <p>Scopus: <a href="https://www.scopus.com/authid/detail.uri?authorId={{ pdata.scopus }}">
+        {{ pdata.scopus }}
+    </a></p>
+    {%- endif %}

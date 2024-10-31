@@ -1,0 +1,73 @@
+:root {
+  --header-color: #974238;
+  --header-link-color: white;
+  --header-link-hover-color: #d07046;
+  
+  --paragraph-color : #50535A;
+  --h-color : #362935;
+  
+  --link-color : #d07046;
+  --body-color : #E7DAC5;
+}
+
+
+p { color : var(--paragraph-color); }
+
+h2 { color: var(--h-color); }
+h3 { color: var(--h-color); }
+h4 { color: var(--h-color); }
+
+div { color : var(--paragraph-color); }
+
+#header { background-color: var(--header-color); }
+	
+#header div a {color: var(--header-link-color); }
+
+#header div a:hover {color: var(--header-link-hover-color);}
+
+
+#content a:link,
+#content a:visited {
+	color: var(--link-color);
+}
+
+body {
+	/*background: linear-gradient(to bottom, #586AA8 0%, #C5D8E4 500pt, #C5D8E4 80%, #586AA8 100%) repeat-x;*/
+	background-color: var(--body-color);
+}
+
+a:hover {
+	color:#000000;
+	text-decoration: none;
+}
+
+
+#menu nav a,
+.colorsub,
+.buttonsup{ /* Цвет кнопки*/
+	color: var(--link-color);
+}
+  
+#menu nav a:hover,
+#menu nav .buttonfix + div a:hover,
+#menu nav .buttonsup + div a:hover { /* На кнопку наведен курсор */
+	color: black; 
+}
+
+#menu nav a:active { /* Нажатая кнопка */
+	color: black;
+}
+
+#menu nav a.buttonfix { /* Кнопка текущего раздела */
+	color: black;
+}
+
+#menu nav .buttonfix + div a { /* Кнопка подраздела */
+	color: #80AB47;
+}
+
+
+#toTop {
+	background: #F4FFBF;
+	color: #666;
+}

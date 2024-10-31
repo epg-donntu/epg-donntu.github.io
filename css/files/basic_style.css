@@ -1,0 +1,269 @@
+@font-face {
+	font-family: "Linux Libertine";
+	src: url("../fonts/LinLibertine_Rah.woff") format("woff"),
+		 url("../fonts/LinLibertine_Rah.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0-7F, U+A1-BF, U+2000-2083, U+0400-052F, U+2DE0-2DFF, U+A640-A69F;
+}
+
+@font-face {
+	font-family: "Linux Biolinum";
+	src: url("../fonts/LinBiolinum_Rah.woff") format("woff"),
+		 url("../fonts/Biolinum_Rah.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+	unicode-range: U+0-7F, U+A1-BF, U+2000-2083, U+0400-052F, U+2DE0-2DFF, U+A640-A69F;
+}
+
+body {
+	margin:0;
+	margin-bottom: 10pt;
+	padding:0;
+	background-size: auto;
+}
+
+/* Разные кавычки для разных языков (тег <q>) */
+:lang(ru) { quotes: "\00AB" "\00BB"; }
+:lang(en) { quotes: "\201C" "\201D"; }
+:lang(uk), :lang(de) { quotes: "\201E" "\201D"; }
+
+h3 {
+	margin-left: 10pt;
+	clear:both;/****************/
+}
+
+p, ul, ol {
+	text-align: justify;
+}
+
+p{
+	font-family : Linux Libertine, 'Times New Roman', Times, serif;
+	font-size : 100%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.cntr {text-align: center;} /* Выравнивание по центру */
+.mcntr {
+    margin-left: 200px;
+    text-align: center;
+} /* Выравнивание по центру */
+.bld {font-weight: bold;}     /* Полужирный */
+.itl {font-style: italic;}    /* Курсив */
+
+hr.hidden {
+    clear: both;
+    border: 0px none;
+    height: 0px; 
+}
+
+h2{
+	text-align: center;
+	font-size:120%;
+	font-weight: bold;
+	}
+
+.uzhenet {
+	text-align: center;
+}
+
+/* ---------------------- ОСНОВНОЙ ТЕКСТ --------------------------------------------------------------- */
+
+#photomag { /* Блок фотографии */
+	float: left;
+	/*width: 270px;*/
+	margin: 0pt 10pt 10pt 10pt;
+	border: 2px solid #785F35;
+	position:relative;
+}
+
+#staffphoto { /* Блок фотографии */
+	margin: 15pt auto 10pt auto;
+	border: 1px solid black;
+	width: 750px;
+	display: none;
+}
+
+#header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m;
+}
+
+#content {
+    grid-area: c;
+}
+
+#footer {
+   grid-area: f;
+}
+
+
+#content { /* Блок основного текста */
+	font-family: Linux Libertine, 'Times New Roman', Times, serif;
+	font-size : 14pt;
+	line-height: 110%;
+	padding: 10pt;
+	/*margin: 0 auto 0 235px;*/
+	margin-top: 10px;
+	position: relative; 
+	display: block;
+	background: white;
+	border: 1.5px solid #82879D;
+	border-radius: 10px;
+	box-shadow: 0px 2px 6px rgba(0,0,0,1);
+	
+/* метод Ильи Стрельцына */
+	/* display: table */
+	/*display: table;*/
+}
+/*
+#content:after {
+	content: '. .';
+	display: block;
+	word-spacing: 99in;
+	height: 0;
+	overflow: hidden;
+
+	font-size: 0.13em;
+	line-height: 0;
+}
+*/
+
+.float-left { float: left;}
+.clear-both { clear: both;}
+ 
+#content li{
+	padding: 1.5pt;
+}
+ 
+#content ul li:before{
+	/*content: "- ";
+	text-indent: -50px;*/
+}
+
+#content ul{
+	margin-left: 25pt;
+	padding-left: 0pt;
+	list-style: square outside;
+}
+
+#content ol{
+	margin-left: 25pt;
+	padding-left: 0pt;
+}
+
+#content .left{
+	position: relative;
+	left: 25pt;
+	padding-right: 25pt;
+	margin-left: 0pt;
+}
+
+noindex:-o-prefocus, #content .left { /*Хак для Opera 12*/
+	left: 15pt;
+	padding-right: 15pt;
+	list-style-position: inside;
+}
+
+noindex:-o-prefocus, #content ul { /*Хак для Opera 12*/
+	margin-left: 10pt;
+	list-style-position: inside;
+}
+
+
+#langbox { /* Блок флагов */
+	float: right;
+	padding: 0;
+	margin: 0 10pt 0 10pt;
+}
+
+
+.rimg { /* Блок с рисунком */
+	float: right;
+	margin: 5pt 0pt 5pt 10pt;
+}
+
+.mainimg { /* Блок с рисунком */
+	float: right;
+	margin: 5pt 5pt 5pt 5pt;
+}
+.mainimg img {
+	width: 420px;
+}
+
+.limg { /* Блок с рисунком */
+	float: left;
+	margin: 5pt 10pt 5pt 0pt;
+}
+
+p + ul , p + ol, p + li { margin-top: -5pt;} /* Если нумерованный список идет сразу после абзаца - отступ не нужен */
+
+ol#biblio {
+	margin-left: 20pt;
+	padding-left: 0pt;
+}
+
+p#post {
+	font-style: italic;
+}
+
+div#osm {
+	float: right;
+	width: 400px;
+	height: 350px;
+	border: 1px solid black;
+	margin-left: 15pt;
+}
+
+div.news {
+	float: left;
+	min-width: 200px;
+	min-height: 280px;
+	max-width: 400px;
+	border: solid #476B7F 1px;
+	margin: 2px;
+	padding: 2px;
+}
+
+div.snews {
+	float: left;
+	min-width: 200px;
+	min-height: 135px;
+	/*max-width: 400px;*/
+	max-width: 100%;
+	border: solid #476B7F 1px;
+	margin: 2px;
+	padding: 10px;
+}
+
+div.news img, div.snews img {
+	/*margin: 0 auto;*/
+	float: left;
+	margin-right: 5px;
+}
+
+div.news p, div.snews p {
+	text-indent: 3em;
+	margin: 2px;
+}
+
+div.contact {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+div.contact img {
+	width: 24px;
+}

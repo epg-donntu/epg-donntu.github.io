@@ -1,0 +1,272 @@
+working:
+  - bershadskiy
+  - kourenny
+  - kovalyov
+  - shlepnyov
+  - levshov
+  - yakimishina
+  - zgarbul
+  - khaliavinskaia
+  - sechina
+  - saponenko
+  - larina
+
+bershadskiy:
+  email: [ibersh164@yandex.ru, ibersh164@gmail.com]
+  phone: [+7(949) 414-25-12]
+  telegram: ilbersh
+  rinc: "958724"
+  orcid: 0000-0001-7383-3415
+  scopus: "55958848900"
+  ru:
+    surname: Бершадский
+    name: Илья
+    thirdname: Адольфович
+    initials: И.А.
+    degree: Доктор технических наук
+    degree_short: д-р. техн. наук
+    post: заведующий кафедрой ЭПГ
+    post_short: зав. кафедрой
+  en:
+    surname: Bershadsky
+    name: Ilya
+    thirdname: Adolfovich
+    degree: Ph.D.
+    post: Department chair
+
+kourenny:
+  email: [n840@matrixhome.net]
+  phone: [+7(949) 516-27-67]
+  #telegram_phone: "+79495162767"
+  rinc: "916680"
+  ru:
+    surname: Куренный
+    name: Эдуард
+    thirdname: Григорьевич
+    initials: 
+    degree: Доктор технических наук
+    degree_short: д-р. техн. наук
+    post: профессор кафедры ЭПГ
+    post_short: профессор
+  en:
+    surname: Kurennyi
+    name: Eduard
+    thirdname: Grigoryevich
+    degree: Ph.D.
+    post: professor
+
+kovalyov:
+  email: [kovaliov_alex@ukr.net]
+  phone: [+7(949) 334-89-08]
+  #telegram_phone: "+380713348908"
+  rinc: "1067697"
+  scopus: "7202799238"
+  ru:
+    surname: Ковалёв
+    name: Александр
+    thirdname: Петрович
+    initials: А.П.
+    degree: Доктор технических наук
+    degree_short: д-р. техн. наук
+    post: профессор кафедры ЭПГ
+    post_short: профессор
+  en:
+    surname: Kovalyov
+    name: Alexander
+    thirdname: Petrovich
+    degree: Ph.D.
+    post: professor
+
+levshov:
+  email: [levshovaleksandr17@gmail.com, levshov@donntu.ru]
+  phone: [+7(949) 301-98-62]
+  #telegram_phone: "+79493019862"
+  rinc: "366514"
+  ru:
+    surname: Левшов
+    name: Александр
+    thirdname: Васильевич
+    initials: А.В.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ
+    post_short: доцент
+  en:
+    surname: Levshov
+    name: Alexander
+    thirdname: Vasilyevich
+    degree: Ph.D. assistent
+    post: associate professor
+
+yakimishina:
+  email: [yvsm@list.ru]
+  phone: [+7(949) 355-07-87]
+  #telegram_phone: "+79888984157"
+  rinc: "958092"
+  scopus: "6504550091"
+  ru:
+    surname: Якимишина
+    name: Виктория
+    thirdname: Викторовна
+    initials: В.В.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ
+    post_short: доцент
+  en:
+    surname: Yakimishina
+    name: Victoria
+    thirdname: Viktorovna
+    degree: Ph.D. assistent
+    post: associate professor
+
+chursinov:
+  email: [victorchur59@gmail.com]
+  phone: [+7(949) 316-25-40]
+  #telegram_phone: "+79262537553"
+  ru:
+    surname: Чурсинов
+    name: Виктор
+    thirdname: Иванович
+    initials: В.И.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ
+    post_short: доцент
+  en:
+    surname: Chursinov
+    name: Victor
+    thirdname: Ivanovich
+    degree: Ph.D. assistent
+    post: associate professor
+
+chursinova:
+  email: [a.chursinova@gmail.com, aurika.chur@mail.ru]
+  phone: [+7(949) 316-25-39]
+  rinc: "475809"
+  #telegram_phone: "+79771430172"
+  ru:
+    surname: Чурсинова
+    name: Аурика
+    thirdname: Александровна
+    initials: А.А.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ
+    post_short: доцент
+  en:
+    surname: Chursinova
+    name: Aurika
+    thirdname: Alexandrovna
+    degree: Ph.D. assistent
+    post: associate professor
+
+shlepnyov:
+  email: [shlepnev71@mail.ru]
+  phone: [+7(949) 352-13-76]
+  #telegram_phone: "+79493521376"
+  rinc: "1230092"
+  ru:
+    surname: Шлепнёв
+    name: Сергей
+    thirdname: Владимирович
+    initials: С.В.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ, декан факультета интеллектуальной электроэнергетики и робототехники
+    post_short: декан ФИЭР
+  en:
+    surname: Shlepnyov
+    name: Sergey
+    thirdname: Vladimirovich
+    post: associate professor, Dean of the Faculty
+
+zgarbul:
+  email: [zgarbul.andrey@gmail.com]
+  phone: [+7(949) 465-02-28]
+  github: burrbull
+  telegram: burrbull
+  rinc: "887883"
+  orcid: 0009-0001-3049-2291
+  ru:
+    surname: Згарбул
+    name: Андрей
+    thirdname: Викторович
+    initials: А.В.
+    degree: Кандидат технических наук
+    degree_short: канд. техн. наук
+    post: доцент кафедры ЭПГ
+    post_short: доцент
+  en:
+    surname: Zgarbul
+    name: Andrey
+    thirdname: Victorovich
+    degree: Ph.D. assistent
+    post: associate professor
+
+khaliavinskaia:
+  email: [natalia.khaliavinskaia@mail.ru, natalia.khaliavinskaia@gmail.com]
+  phone: [+7(949) 431-33-42]
+  #telegram_phone: "+79494313342"
+  ru:
+    surname: Халявинская
+    name: Наталья
+    thirdname: Михайловна
+    initials: Н.М.
+    post: Старший преподаватель кафедры ЭПГ
+    post_short: ст. преподаватель
+  en:
+    surname: Khalyavinskaya
+    name: Natalya
+    thirdname: Mikhaelovna
+    post: Senior teacher
+
+sechina:
+  email: [Sechina89@mail.ru]
+  phone: [+7(949) 334-93-81]
+  telegram_phone: "+79493349381"
+  ru:
+    surname: Сечина
+    name: Маргарита
+    thirdname: Викторовна
+    initials: М.В.
+    post: Инженер кафедры ЭПГ, ассистент
+    post_short: инженер, ассистент
+  en:
+    surname: Sechina
+    name: Margarita
+    thirdname: Viktorovna
+    post: assistent
+
+saponenko:
+  email: [saponenko60@mail.ru]
+  phone: [+7(949) 334-87-07]
+  #telegram_phone: "+79493348707"
+  ru:
+    surname: Сапоненко
+    name: Людмила
+    thirdname: Викторовна
+    initials: Л.В.
+    post: Заведующая лабораториями кафедры ЭПГ
+    post_short: зав. лабораториями
+  en:
+    surname: Saponenko
+    name: Ludmila
+    thirdname: Viktorovna
+    post: laboratories manager
+
+larina:
+  email: []
+  phone: []
+  ru:
+    surname: Ларина
+    name: Лариса
+    thirdname: Андреевна
+    initials: Л.А.
+    post: Лаборант кафедры ЭПГ
+    post_short: лаборант
+  en:
+    surname: Larina
+    name: Larisa
+    thirdname: Andreevna
+    post: laborant

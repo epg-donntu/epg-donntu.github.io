@@ -1,0 +1,113 @@
+/* Время обновления страницы */
+#footer {
+    margin: auto;
+}
+:lang(uk) p#updatetime:before {content: "Сайт оновлений: ";}
+:lang(ru) p#updatetime:before {content: "Сайт обновлён: ";}
+:lang(en) p#updatetime:before {content: "Site was updated: ";}
+
+/* Кнопка "В начало страницы" */
+#toTop {
+	position:fixed;
+	z-index:9999;
+	bottom:10px;
+	left:10px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	cursor: pointer;
+	text-decoration: none;
+	min-width: 100px;
+	text-align: center;
+}
+
+:lang(uk) #toTop:after {content: "До початку сторінки";}
+:lang(ru) #toTop:after {content: "В начало страницы";}
+:lang(en) #toTop:after {content: "Up";}
+
+
+/* Слайдер изображений sliderman */
+#slider_container {
+	margin: 0 auto;
+	background: url(../../img/bg.png) no-repeat 0 0;
+}
+
+.SliderName {
+	overflow: hidden;
+}
+
+.SliderNamePrev {
+	background: url(../../images/sliderman/left.png) no-repeat left center;
+	width: 50px;
+	height: 408px;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+}
+
+.SliderNameNext {
+	background: url(../../images/sliderman/right.png) no-repeat right center;
+	width: 50px;
+	height: 408px;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-decoration: none;
+}
+
+.SliderND {
+	padding: 10px;
+	font-family: Tahoma,Arial,Helvetica;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 0 1px 3px #000000;
+}
+
+.feeds { 
+	font-size: 13pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.feeds ul div h4 { 
+	font-style: italic;
+}
+
+.feeds ul div {
+	padding: 10px;
+	border: solid #476B7F 1px;
+}
+
+
+/*#myGallery {
+	border:4px solid #eee;
+	width:544px;
+	height:408px;
+	overflow:hidden;
+	position:relative;
+	padding:0;
+	margin:0;
+	background:#000;
+}
+.controls {
+	text-indent:-99in;
+	background:url(../../images/controls.png) no-repeat;
+	width:30px;
+	height:56px;
+	display:block;
+	position:absolute;
+}
+.controls#prev {
+	margin-top:150px;
+	margin-left:-30px;
+}	
+.controls#next {
+	background-position:-30px 0;
+	margin-top:-215px;
+	margin-left:970px;
+}	
+*/

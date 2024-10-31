@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.calc_sm {
+  border: 1px solid black;
+  margin: auto;
+  width: 80%;
+}
+
+.calc_sm input {
+  width: 60%;
+}
+
+#mytable {
+  margin: auto;
+  width: 80%;
+}
+
+#mytable td, th, tr {
+  border-collapse: collapse; /* Убираем двойные линии между ячейками */
+  border: 1px solid black; /* Параметры рамки */
+  width: 25%;
+}
+
+#main {
+  width: 80%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#main p {
+  padding: 5px;
+}
+
+#header {
+  height: 100px;
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer {
+  height: 40px;
+  width: 80%;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mytable td {
+  text-align: center;
+}
+
+.menu {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.menu a {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #E5E5E5;
+  color: black;
+}
+
+.menu a:hover {
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #D6FFE6;
+  color: red;
+}
+
+#svgBlock {
+  border: 2px double black;
+  grid-area: svg;
+}
+
+#printBlock {
+  grid-area: print;
+}
+
+form {
+  grid-area: form;
+}
+
+#panel {
+  display: grid;
+  grid-template-areas: "svg form" "svg print" "svg .";
+}
+
+foreignObject {
+  overflow: visible;
+}
+
+#objects {
+  min-width: 700px;
+}
+
+#rods {
+  min-width: 300px;
+}
+
+#objects, #rods {
+  float: left;
+  margin: 10px;
+}
+
+#objects table, #rods table {
+  border: 1px solid black;
+}
