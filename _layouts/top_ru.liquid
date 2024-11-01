@@ -14,6 +14,10 @@
     <script src="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.js"></script>
     <link href="https://cdn.maptiler.com/maplibre-gl-js/v2.4.0/maplibre-gl.css" rel="stylesheet" />
     {%- endif %}
+    {%- if page.data.panos %}
+    <link rel="stylesheet" href="css/files/pano.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.pano.js"></script>
+    {%- endif %}
 </head>
 <body lang="ru">
 <a href="#" id="toTop">↑ </a>
@@ -54,5 +58,17 @@
 </div>
 
 </div>
+{%- if page.data.panos %}
+<script>
+    /* jshint jquery: true */
+    jQuery(document).ready(function($){
+        {%- for pano in page.data.panos %}
+        $("#{{ pano.name }}").pano({
+            img: "./images/rooms/{{ pano.img }}"
+        });
+        {%- endfor %}
+    });
+</script>
+{%- endif %}
 </body>
 </html>
