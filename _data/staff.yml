@@ -120,47 +120,6 @@ yakimishina:
     degree: Ph.D. assistent
     post: associate professor
 
-chursinov:
-  email: [victorchur59@gmail.com]
-  phone: [+7(949) 316-25-40]
-  #telegram_phone: "+79262537553"
-  ru:
-    surname: Чурсинов
-    name: Виктор
-    thirdname: Иванович
-    initials: В.И.
-    degree: Кандидат технических наук
-    degree_short: канд. техн. наук
-    post: доцент кафедры ЭПГ
-    post_short: доцент
-  en:
-    surname: Chursinov
-    name: Victor
-    thirdname: Ivanovich
-    degree: Ph.D. assistent
-    post: associate professor
-
-chursinova:
-  email: [a.chursinova@gmail.com, aurika.chur@mail.ru]
-  phone: [+7(949) 316-25-39]
-  rinc: "475809"
-  #telegram_phone: "+79771430172"
-  ru:
-    surname: Чурсинова
-    name: Аурика
-    thirdname: Александровна
-    initials: А.А.
-    degree: Кандидат технических наук
-    degree_short: канд. техн. наук
-    post: доцент кафедры ЭПГ
-    post_short: доцент
-  en:
-    surname: Chursinova
-    name: Aurika
-    thirdname: Alexandrovna
-    degree: Ph.D. assistent
-    post: associate professor
-
 shlepnyov:
   email: [shlepnev71@mail.ru]
   phone: [+7(949) 352-13-76]

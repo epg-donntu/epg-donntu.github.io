@@ -19,6 +19,10 @@ data:
 системы электропотребления” по уровням подготовки бакалавр и магистр
 (направленность “Электроснабжение и энергосбережение)”.
 
+<div class="cntr"><img src="images/EPG_front_optim.svg" width="80%" /></div>
+
+<div class="cntr"><img src="images/EPG_back_optim.svg" width="80%" /></div>
+
 Учебный процесс осуществляется в две ступени:
 
 - Обучение на <span class="bld">первой ступени</span> производится в
