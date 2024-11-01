@@ -1,0 +1,28 @@
+.pano {
+    height: 400px;
+    margin: 15px 15px;
+    cursor: move;
+}
+.pano .controls {
+    position: relative;
+    top: 45%;
+}
+.pano .controls a {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    color: #eee;
+    font-size: 3em;
+    width: 20px;
+    height: 20px;
+}
+.pano .controls a.left {
+    left: 0px;
+}
+.pano .controls a.right {
+    right: 60px;
+}
+.pano.moving .controls a {
+    opacity: 0.4;
+    color: #eee;
+}
