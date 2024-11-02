@@ -14,6 +14,12 @@
     <script type="text/javascript" src="js/jquery.pano.js"></script>
 </head>
 <body lang="ru">
+<style>
+#pano8411 {
+    background-image: url(./images/rooms/8411.jpg);
+    background-position-x: -350px; 
+}
+</style>
 <a href="#" id="toTop">↑ </a>
 
 <div class="container">
@@ -102,10 +108,7 @@
 <script>
     /* jshint jquery: true */
     jQuery(document).ready(function($){
-        $("#pano8411").pano({
-            img: "./images/rooms/8411.jpg",
-             pos: -350, 
-        });
+        $("#pano8411").pano({});
     });
 </script>
 </body>

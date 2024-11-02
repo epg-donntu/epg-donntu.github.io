@@ -88,21 +88,6 @@ https://seancoyne.github.io/pano
 			rightMover,
 			ctrlInterval = options.interval || 100,
 			ctrlSpeed = options.speed || 50;
-			
-		// setup the initial styling
-		$pano.css({
-			"background-image": "url('" + options.img + "')",
-			"background-position-x": "0px",
-			"background-size": "auto 100%",
-			"background-repeat": "repeat-x"
-		});
-		
-		// set the initial position in pixels (easier math)
-		//var halfWidth = (getImageWidth(options.img) / 2);
-		//moveBackgroundTo(halfWidth);
-		if (options.pos) {
-			moveBackgroundTo(options.pos);
-		}
 		
 		var moveLeft = function(interval, speed) {
 			
