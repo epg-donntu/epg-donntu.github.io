@@ -10,6 +10,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
     <script type="text/javascript" src="js/totopscroll.js"></script>
+    <link rel="stylesheet" href="css/files/pano.css" type="text/css" />
+    <script type="text/javascript" src="js/jquery.pano.js"></script>
 </head>
 <body lang="ru">
 <a href="#" id="toTop">↑ </a>
@@ -75,6 +77,21 @@
 <li>научиться использовать показатели повреждений типа УП;</li>
 <li>освоить азы практической диспетчирезации и релейной защиты.</li>
 </ul>
+<h3>Аудитории кафедры ЭПГ</h3>
+<h3>8.411 - Лекционная аудитория</h3>
+<div id="pano8411" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
+<h3>8.406 - Дисплейный класс</h3>
+<h3>8.408 - Дисплейный класс</h3>
+<h3>8.401 - Лаборатория освещения</h3>
+<h3>8.403 - Лаборатория электрических аппаратов</h3>
+<h3>8.404 - Лаборатория электроснабжения</h3>
+<h3>8.405 - Лаборатория электротехнических установок</h3>
+<h3>8.407 - Лаборатория электротехнических материалов</h3>
 
 </div>
 
@@ -82,5 +99,14 @@
 </div>
 
 </div>
+<script>
+    /* jshint jquery: true */
+    jQuery(document).ready(function($){
+        $("#pano8411").pano({
+            img: "./images/rooms/8411.jpg",
+             pos: -350, 
+        });
+    });
+</script>
 </body>
 </html>
