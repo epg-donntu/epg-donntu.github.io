@@ -6,7 +6,7 @@ data:
   panos:
     - name: pano8411
       img: 8411.jpg
-      pos: -350
+      pos: -350px
 ---
 
 ## Учебная работа

@@ -25,7 +25,7 @@
     {%- for pano in page.data.panos %}
 #{{ pano.name }} {
     background-image: url(./images/rooms/{{ pano.img }});
-    background-position-x: {% if pano.pos %} {{ pano.pos }}px {% else %} 0px {% endif %};
+    background-position-x: {% if pano.pos %} {{ pano.pos }} {% else %} 0px {% endif %};
     background-size: auto 100%;
     background-repeat: repeat-x;
 }

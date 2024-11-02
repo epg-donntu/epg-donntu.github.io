@@ -1,4 +1,3 @@
-
 :lang(uk) #epg a:after {content: "Кафедра електропостачання промпідприємств і міст"}
 :lang(ru) #epg a:after {content: "Кафедра электроснабжения промпредприятий и городов"}
 :lang(en) #epg a:after {content: "Department of Power Supply of Industrial Companies and Cities"}
@@ -16,6 +15,20 @@
 :lang(en) #donntu a:after {content: "DONETSK NATIONAL TECHNICAL UNIVERSITY"}
 :lang(de) #donntu a:after {content: "NATIONALE TECHNISCHE UNIVERSITÄT DONEZK"}
 :lang(fr) #donntu a:after {content: "UNIVERSITÉ TECHNIQUE NATIONALE DE DONETSK"}
+
+@media all and (orientation: portrait), all and (max-width: 1064px) {  
+  :lang(uk) #epg a:after {content: "Кафедра электропостачання"}
+  :lang(ru) #epg a:after {content: "Кафедра электроснабжения"}
+  :lang(en) #epg a:after {content: "Department of Power Supply"}
+  
+  :lang(uk) #etf a:after {content: "ФІЕР"}
+  :lang(ru) #etf a:after {content: "ФИЭР"}
+  :lang(en) #etf a:after {content: "EEF"}
+  
+  :lang(uk) #donntu a:after {content: "ДОННТУ"}
+  :lang(ru) #donntu a:after {content: "ДОННТУ"}
+  :lang(en) #donntu a:after {content: "DNTU"}
+}
 
 #langbox img.inactive {
   opacity: 0.2;

@@ -1,9 +1,9 @@
 .container {
 	margin: auto;
-	min-width: 905px;
+	/*min-width: 905px;*/
 	max-width: 1067px;
     display: grid;
-    grid-row-gap: 5px;    
+    grid-row-gap: 5px;
     grid-template-columns: 235px 1fr;
     grid-template-rows: 160px 1fr 30px;
     grid-template-areas:
