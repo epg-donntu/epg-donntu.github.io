@@ -93,23 +93,6 @@ h2{
 	display: none;
 }
 
-#header {
-    grid-area: h;
-}
-
-.menu {
-    grid-area: m;
-}
-
-#content {
-    grid-area: c;
-}
-
-#footer {
-   grid-area: f;
-}
-
-
 #content { /* Блок основного текста */
 	font-family: Linux Libertine, 'Times New Roman', Times, serif;
 	font-size : 16pt;
@@ -148,10 +131,10 @@ h2{
 	padding: 1.5pt;
 }
  
-#content ul li:before{
-	/*content: "- ";
-	text-indent: -50px;*/
-}
+/*#content ul li:before{
+	content: "- ";
+	text-indent: -50px;
+}*/
 
 #content ul{
 	margin-left: 25pt;
