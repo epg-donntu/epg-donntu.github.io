@@ -17,7 +17,43 @@
 <style>
 #pano8411 {
     background-image: url(./images/rooms/8411.jpg);
-    background-position-x:  -350px ;
+    background-position-x:  -100px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8406 {
+    background-image: url(./images/rooms/8406.jpg);
+    background-position-x:  -650px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8408 {
+    background-image: url(./images/rooms/8408.jpg);
+    background-position-x:  -1100px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8403 {
+    background-image: url(./images/rooms/8403.jpg);
+    background-position-x:  -250px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8404 {
+    background-image: url(./images/rooms/8404.jpg);
+    background-position-x:  -250px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8405 {
+    background-image: url(./images/rooms/8405.jpg);
+    background-position-x:  -1000px ;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+}
+#pano8407 {
+    background-image: url(./images/rooms/8407.jpg);
+    background-position-x:  -500px ;
     background-size: auto 100%;
     background-repeat: repeat-x;
 }
@@ -94,12 +130,48 @@
   </div>
 </div>
 <h3>8.406 - Дисплейный класс</h3>
+<div id="pano8406" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 <h3>8.408 - Дисплейный класс</h3>
+<div id="pano8408" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 <h3>8.401 - Лаборатория освещения</h3>
 <h3>8.403 - Лаборатория электрических аппаратов</h3>
+<div id="pano8403" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 <h3>8.404 - Лаборатория электроснабжения</h3>
+<div id="pano8404" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 <h3>8.405 - Лаборатория электротехнических установок</h3>
+<div id="pano8405" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 <h3>8.407 - Лаборатория электротехнических материалов</h3>
+<div id="pano8407" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 
 </div>
 
@@ -111,6 +183,12 @@
     /* jshint jquery: true */
     jQuery(document).ready(function($){
         $("#pano8411").pano({});
+        $("#pano8406").pano({});
+        $("#pano8408").pano({});
+        $("#pano8403").pano({});
+        $("#pano8404").pano({});
+        $("#pano8405").pano({});
+        $("#pano8407").pano({});
     });
 </script>
 </body>

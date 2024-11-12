@@ -111,6 +111,19 @@ h2{
 	/* display: table */
 	/*display: table;*/
 }
+
+@media all and (orientation: landscape), all and (min-width: 1065px) {
+	#content { /* Блок основного текста */
+		margin-top: 10px;
+	}
+}
+@media all and (orientation: portrait), all and (max-width: 1064px) {
+	#content { /* Блок основного текста */
+		margin-top: 0px;
+	}
+}
+
+
 /*
 #content:after {
 	content: '. .';

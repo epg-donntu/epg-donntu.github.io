@@ -1,97 +1,192 @@
 
 /* ------------- ГЛАВНОЕ МЕНЮ ----------------------------------------------------------------------- */
-@media all and (orientation: landscape), all and (min-width: 721px) {
+@media all and (orientation: landscape), all and (min-width: 1065px) {
+    #menu {
+        margin-top: -15px;
+        background: url(../../images/bus.png) no-repeat;
+        font-family : Linux Biolinum, Arial, Helvetica, sans-serif;
+        font-size: 11pt;
+        font-weight: bold;    
+        width: 135px;
+    }
 
-#menu {
-    margin-top: -15px;
-	background: url(../../images/bus.png) no-repeat;
-	font-family : Linux Biolinum, Arial, Helvetica, sans-serif;
-	font-size: 11pt;
-	font-weight: bold;	
-	width: 135px;
- }
+    #menu nav { /* Блок верхнего меню */
+        padding: 30px 00px 20px 0px;
+    }
 
-#menu nav { /* Блок верхнего меню */
-	padding: 30px 00px 20px 0px;
+    #menu nav a { /* Сама кнопка */
+        background-repeat: no-repeat;
+        width: 136px;
+        height: 35px;
+        float: left;
+        text-align: center;
+        padding: 6px 30px 0px 72px;
+        }
+
+    #menu nav a:nth-child(3n+1) {
+        background-image: url(../../images/button_a.png);
+    }
+
+    #menu nav a:nth-child(3n+2) {
+        background-image: url(../../images/button_b.png);
+    }
+
+    #menu nav a:nth-child(3n) {
+        background-image: url(../../images/button_c.png);
+    }
+
+    #menu nav .buttonfix + div a, #menu nav .buttonsup + div a{
+        margin-top: -12px;
+        background: url(../../images/button_sub.png) no-repeat;
+        padding: 20px 30px 0px 72px;
+    }
+
+
+    #menu nav a:link, #menu nav a:visited {
+        text-decoration: none;
+    }
+
+    /*#menu nav a:visited {} Кнопка посещенной ссылки */
+    
+    #menu nav a:hover { /* На кнопку наведен курсор */
+        text-decoration: none;   
+    }
+
+    #menu nav a:active { /* Нажатая кнопка */
+        position: relative;
+    }
+
+    #menu nav .buttonfix a { /* Кнопка текущего раздела */
+        position: static;
+        cursor: auto;
+    }
+
+    #menu nav .buttonfix ul a { /* Нажатая кнопка */
+        cursor: pointer;
+        position: relative;
+    }
+
+    #menu nav a.buttonfix,
+    #menu nav a.buttonsup{ /* Кнопка текущего надраздела */
+        background-position: -235px 0px;
+    }
+
+    #menu nav div a.buttonfix { /* Кнопка текущего надраздела */
+        background-position: 0px 0px;
+    }
+
+    #menu nav div {
+        list-style:none;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #menu nav div {
+        display: none;
+    }
+
+    #menu nav .buttonfix + div {
+        display: block;
+    }
+
+    #menu nav .buttonsup + div {
+        display: block;
+    }
 }
 
-#menu nav a { /* Сама кнопка */
-	background-repeat: no-repeat;
-	width: 136px;
-	height: 35px;
-	float: left;
-	text-align: center;
-	padding: 6px 30px 0px 72px;
-	}
+@media all and (orientation: portrait), all and (max-width: 1064px) {
+    #menu {
+        margin-top: -5px;
+        background: url(../../images/bus.png) no-repeat;
+        font-family : Linux Biolinum, Arial, Helvetica, sans-serif;
+        font-size: 16pt;
+        font-weight: bold;    
+        width: 100%;
+    }
 
-#menu nav a:nth-child(3n+1) {
-	background-image: url(../../images/button_a.png);
-}
+    #menu nav { /* Блок верхнего меню */
+        margin-left: 70px;
+        padding: 0px;
+    }
 
-#menu nav a:nth-child(3n+2) {
-	background-image: url(../../images/button_b.png);
-}
+    #menu nav a { /* Сама кнопка */
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 35px;
+        float: left;
+        text-align: center;
+        margin: 8px 4px 0px 4px;
+        padding: 2px 5px;
+        border: 2px #9d9793 solid;
+        border-radius: 10px;
+    }
 
-#menu nav a:nth-child(3n) {
-	background-image: url(../../images/button_c.png);
-}
+    #menu nav a:nth-child(3n+1) {
+        background: #e5e8e4;
+    }
 
-#menu nav .buttonfix + div a, #menu nav .buttonsup + div a{
-    margin-top: -12px;
-    background: url(../../images/button_sub.png) no-repeat;
-	padding: 20px 30px 0px 72px;
-}
+    #menu nav a:nth-child(3n+2) {
+        background: #e5e8e4;
+    }
 
+    #menu nav a:nth-child(3n) {
+        background: #e5e8e4;
+    }
 
-#menu nav a:link, #menu nav a:visited {
-	text-decoration: none;
-}
+    #menu nav .buttonfix + div a, #menu nav .buttonsup + div a {
+        background: #e5e8e4;
+        margin: 5px 10px;
+        padding: 2px 5px;
+    }
 
-#menu nav a:visited {} /* Кнопка посещенной ссылки */
-  
-#menu nav a:hover { /* На кнопку наведен курсор */
-	text-decoration: none;   
-}
+    #menu nav a:link, #menu nav a:visited {
+        text-decoration: none;
+    }
 
-#menu nav a:active { /* Нажатая кнопка */
-	position: relative;
-}
+    /*#menu nav a:visited {} Кнопка посещенной ссылки */
+    
+    #menu nav a:hover { /* На кнопку наведен курсор */
+        text-decoration: none;   
+    }
 
-#menu nav .buttonfix a { /* Кнопка текущего раздела */
-	position: static;
-	cursor: auto;
-}
+    #menu nav a:active { /* Нажатая кнопка */
+        position: relative;
+    }
 
-#menu nav .buttonfix ul a { /* Нажатая кнопка */
-	cursor: pointer;
-	position: relative;
-}
+    #menu nav .buttonfix a { /* Кнопка текущего раздела */
+        position: static;
+        cursor: auto;
+    }
 
-#menu nav a.buttonfix,
-#menu nav a.buttonsup{ /* Кнопка текущего надраздела */
-	background-position: -235px 0px;
-}
+    #menu nav .buttonfix ul a { /* Нажатая кнопка */
+        cursor: pointer;
+        position: relative;
+    }
 
-#menu nav div a.buttonfix { /* Кнопка текущего надраздела */
-	background-position: 0px 0px;
-}
+    #menu nav a.buttonfix,
+    #menu nav a.buttonsup{ /* Кнопка текущего надраздела */
+        background-position: -235px 0px;
+    }
 
-#menu nav div {
-    list-style:none;
-    margin: 0px;
-    padding: 0px;
-}
+    #menu nav div a.buttonfix { /* Кнопка текущего надраздела */
+        background-position: 0px 0px;
+    }
 
-#menu nav div {
-    display: none;
-}
+    #menu nav div {
+        list-style:none;
+        margin: 0px;
+        padding: 0px;
+    }
 
-#menu nav .buttonfix + div {
-    display: block;
-}
+    #menu nav div {
+        display: none;
+    }
 
-#menu nav .buttonsup + div {
-    display: block;
-}
+    #menu nav .buttonfix + div {
+        display: block;
+    }
 
+    #menu nav .buttonsup + div {
+        display: block;
+    }
 }
