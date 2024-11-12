@@ -6,7 +6,25 @@ data:
   panos:
     - name: pano8411
       img: 8411.jpg
-      pos: -350px
+      pos: -100px
+    - name: pano8406
+      img: 8406.jpg
+      pos: -650px
+    - name: pano8408
+      img: 8408.jpg
+      pos: -1100px
+    - name: pano8403
+      img: 8403.jpg
+      pos: -250px
+    - name: pano8404
+      img: 8404.jpg
+      pos: -250px
+    - name: pano8405
+      img: 8405.jpg
+      pos: -1000px
+    - name: pano8407
+      img: 8407.jpg
+      pos: -500px
 ---
 
 ## Учебная работа
@@ -62,14 +80,56 @@ data:
 
 ### 8.406 - Дисплейный класс
 
+<div id="pano8406" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
+
 ### 8.408 - Дисплейный класс
+
+<div id="pano8408" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 
 ### 8.401 - Лаборатория освещения
 
 ### 8.403 - Лаборатория электрических аппаратов
 
+<div id="pano8403" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
+
 ### 8.404 - Лаборатория электроснабжения
+
+<div id="pano8404" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
 
 ### 8.405 - Лаборатория электротехнических установок
 
+<div id="pano8405" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
+
 ### 8.407 - Лаборатория электротехнических материалов
+
+<div id="pano8407" class="pano">
+  <div class="controls">
+    <a class="left">«</a>
+    <a class="right">»</a>
+  </div>
+</div>
